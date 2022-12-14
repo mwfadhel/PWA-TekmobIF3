@@ -17,16 +17,37 @@
 
 <body>
     <nav>
+        <div class="navbar">
+          <div class="container nav-container">
+              <input class="checkbox" type="checkbox" name="" id="" />
+              <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+              </div>  
+           <div class="logo"><h1>Vault Collectives</h1>
+           </div>
+            <div class="icon" onclick="toggleNotifi()">
+                <img src="img/bell.png" alt="">
+            </div>
+            <div class="notifi-box" id="box">
+            <div id="links"></div>
+            </div>
+            <div class="menu-items">
+              <li><a href="/PWA-TekmobIF3/vaults/index.html">Home</a></li>
+              <li><a href="#">Man</a></li>
+              <li><a href="#">Woman</a></li>
+              <li><a href="#">Customer Services</a></li>
+            </div>
+          </div>
+      </nav>
+    <!-- <nav>
         <ion-icon name="menu" onclick=""></ion-icon>
         <a href="/PWA-TekmobIF3/vaults/">VAULT COLLECTIVES</a>
-        <div class="icon" onclick="toggleNotifi()">
-			<img src="img/bell.png" alt="">
-		</div>
-		<div class="notifi-box" id="box">
-        <div id="links"></div>
+       
         </div>
         
-    </nav>
+    </nav> -->
     <div class="search_bar">
         <ion-icon name="search-outline"></ion-icon>
         <input type="search" placeholder="Search..">
