@@ -183,6 +183,9 @@ body.active {
 .notifi-box h2 span {
 	color: #f00;
 }
+.notifi-box #links {
+    display: none;
+  }
 .notifi-item {
 	display: flex;
 	border-bottom: 1px solid #eee;
