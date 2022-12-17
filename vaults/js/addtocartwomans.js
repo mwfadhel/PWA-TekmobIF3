@@ -19,9 +19,9 @@ const product = [
     },
     {
         id: 3,
-        image: 'img/14.png',
-        title: 'Tory Burch Chevron',
-        price: 400,
+        image: 'img/18.jpg',
+        title: 'Balenciaga Bag Limited Edition',
+        price: 5000,
     }
 ];
 const categories = [...new Set(product.map((item)=>

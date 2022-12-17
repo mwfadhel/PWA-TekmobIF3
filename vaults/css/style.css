@@ -21,6 +21,19 @@ body {
     font-size: calc(1.2rem + 1vw);
 } */
 
+.footer-version-3 .nav-footer {
+  display: flex;
+  z-index: 10;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #242424;
+  padding: 30px 57px 26px;
+}
+.vc-logo {
+  display: flex;
+  align-items: left;
+}
+
 .search_bar {
     width: 80%;
     margin: 0 auto;
